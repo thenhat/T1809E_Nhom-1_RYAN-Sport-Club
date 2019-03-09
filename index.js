@@ -9,3 +9,6 @@ app.listen(3000);
 app.get("/", function (req, res) {
     res.render("index");
 });
+app.get("/IndoorSport", function (req, res) {
+    res.render("IndoorSports");
+});
