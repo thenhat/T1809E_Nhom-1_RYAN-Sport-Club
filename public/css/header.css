@@ -48,7 +48,7 @@ border: 0 solid transparent;
 .menu>ul>li.has-sub>a::after{
   display: inline-block;
     content: "";
-    font-family: "FontAwesome";
+    font-family: "Helvetica Neue",sans-serif;
     font-weight: normal;
     font-size: 1em;
     margin: 0 0 0 5px;
@@ -128,7 +128,7 @@ nav ul li a:hover{
       }
 
       nav ul {
-            max-height: 0px;
+            max-height: 0;
             background: #000;
             padding-right: 0;
             padding-left: 0;
