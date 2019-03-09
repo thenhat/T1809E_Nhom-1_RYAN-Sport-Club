@@ -1,5 +1,14 @@
-
+.carousel{
+  position: relative;
+}
+.carousel-text{
+  position: absolute;
+  top: 200px;
+  margin: 0 205px;
+  color: #ffffff;
+}
 .carousel-item {
+  margin-top: 65px;
   height: 100vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -7,3 +16,12 @@
   -o-background-size: cover;
   background-size: cover;
 }
+@media(max-width: 786px) {
+  .carousel-item {
+    height: 26vh;
+  }
+  .carousel-text{
+    display: none;
+  }
+}
+
