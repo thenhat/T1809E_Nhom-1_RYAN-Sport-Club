@@ -9,6 +9,48 @@ app.listen(3000);
 app.get("/", function (req, res) {
     res.render("index");
 });
-app.get("/IndoorSport", function (req, res) {
+app.get("/IndoorSports", function (req, res) {
     res.render("IndoorSports");
+});
+app.get("/OutdoorSports", function (req, res) {
+    res.render("OutdoorSports");
+});
+app.get("/Recreation", function (req, res) {
+    res.render("Recreation");
+});
+app.get("/Ativities", function (req, res) {
+    res.render("Ativities");
+});
+app.get("/SuggestionComplaints", function (req, res) {
+    res.render("SuggestionComplaints");
+});
+app.get("/Feedback", function (req, res) {
+    res.render("Feedback");
+});
+app.get("/SIGNUP", function (req, res) {
+    res.render("SIGNUP");
+});
+app.get("/Gym", function (req, res) {
+    res.render("Gym");
+});
+app.get("/KickFit", function (req, res) {
+    res.render("KickFit");
+});
+app.get("/Boxing", function (req, res) {
+    res.render("Boxing");
+});
+app.get("/cycling", function (req, res) {
+    res.render("cycling");
+});
+app.get("/walking", function (req, res) {
+    res.render("walking");
+});
+app.get("/volleyball", function (req, res) {
+    res.render("volleyball");
+});
+app.get("/chess", function (req, res) {
+    res.render("chess");
+});
+app.get("/LOL", function (req, res) {
+    res.render("LOL");
 });
