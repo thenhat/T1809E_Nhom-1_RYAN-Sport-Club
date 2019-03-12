@@ -14,7 +14,7 @@
 	color: white;
 }
 .footer1 a:hover{
-	color: ;
+	color: #d92329;
 }
 
 .footer1 p{
@@ -47,15 +47,7 @@
   font-family: "Helvetica Neue",sans-serif;
 }
 
-.myframegmap{
-
-    border: 3px solid #f6f5f0;
-    border-radius: 8px;
-    height: 130px;
-    width: 80%;
-    box-shadow: 0px 0px 3px 3px #e7e4dc;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-
+.form-footer{
+	border: 1px solid #d92329;
+	padding: 15px 30px;
 }

@@ -1,113 +1,260 @@
-.banner{
-  background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
-  text-align: center;
-  color: #fff;
+.banner {
+    background-image: url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+    text-align: center;
+    color: #fff;
 
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.banner-text{
-  padding:200px 0 150px 0;
-}
-.banner-heading{
-  font-family: 'Lobster', cursive;
-  font-size: 75px;
-  font-weight: 700;
-  line-height: 100px;
-  margin-bottom: 30px;
-  color:#fff;
-}
-.banner-sub-heading{
-  font-family: 'Libre Baskerville', serif;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 30px;
-  margin-bottom: 50px;
-  color:#fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.btn-banner{
-  padding:5px 20px;
-  border-radius:10px;
-  font-weight:700;
-  line-height:1.5;
-  text-align:center;
-  color:#fff;
-  text-transform:uppercase;
-}
-.text-intro{
-  width:90%;
-  margin:auto;
-  text-align:center;
-  padding-top:30px;
+.banner-text {
+    padding: 200px 0 150px 0;
 }
 
-.carousel{
-  position: relative;
+.banner-heading {
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+    color: #fff;
 }
-.carousel-text{
-  position: absolute;
-  top: 200px;
-  margin: 0 205px;
-  color: #ffffff;
-}
-.carousel-button{
-  position: absolute;
-  top: 400px;
-}
-.carousel-button .btn{
-  padding: 12px 42px;
-  margin: 0 205px;
-  font-size: 25px;
-  border-radius: 30px;
-}
-.carousel-item {
-  margin-top: 65px;
-  height: 100vh;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.centered_text .btn{
-  padding: 12px 42px;
-  margin: 0 auto;
-  font-size: 25px;
-  border-radius: 30px;
-  display: block;
-}
-@media(max-width: 786px) {
-  .carousel-item {
-    height: 26vh;
-  }
-  .carousel-text{
-    display: none;
-  }
-  .carousel-button{
-    display: none;
-  }
 
-  .banner-text{
-    padding:150px 0 150px 0;
-  }
-  .banner-heading{
+.banner-sub-heading {
+    font-family: 'Libre Baskerville', serif;
     font-size: 30px;
+    font-weight: 300;
     line-height: 30px;
-    margin-bottom: 20px;
-  }
-  .banner-sub-heading{
-    font-size: 10px;
-    font-weight: 200;
-    line-height: 10px;
-    margin-bottom: 40px;
-  }
+    margin-bottom: 50px;
+    color: #fff;
+}
 
+.btn-banner {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text-intro {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-indicators {
+    bottom: 110px;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+.carousel-button .btn {
+    padding: 12px 42px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.carousel-item {
+    margin-top: 65px;
+    height: 110vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centered_text .btn {
+    padding: 12px 42px;
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 30px;
+    display: block;
+}
+
+.top_boxes {
+    margin-top: -110px;
+}
+
+.top_boxes .top_box {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.top_boxes .top_box img {
+    height: 245px;
+    width: 100%;
+    position: relative;
+    transform: rotate(0deg) scale(1);
+    transition: all 400ms ease-out 0s;
+}
+
+.top_boxes .top_box:hover img {
+    transform: rotate(6deg) scale(1.25);
+    transition: all 400ms ease-out 0s;
+}
+
+.top_boxes .top_box .top_box_text {
+    position: absolute;
+    top: 37%;
+    z-index: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-shadow: 2px 2px #000000;
+}
+
+.top_boxes .top_box .top_box_text h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 0.7;
+}
+
+.top_boxes .top_box .top_box_text span {
+    color: #d92329;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.sport-list-cross .container-list {
+    position:relative;
+    display:inline-block;
+}
+.sport-list .container-list .image{
+    height: 380px;
+}
+.overlay {
+    position:absolute;
+    transition:all .3s ease;
+    opacity:0;
+    transition:0.7s;
+    background: #00b1bab8;
+}
+.sport-list-cross .container-list:hover .overlay {
+    opacity:1;
+}
+.container-list .text {
+    color:white;
+    font-family: sans-serif;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 20px;
+}
+.overlayCross {
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    transform: scale(0.9);
+    background: rgba(0,0,0,.5);
+}
+.overlayCross .text a{
+    color: #ffffff;
+}
+.sport-list {
+    width: 100%;
+}
+
+.sport-img {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sport-img img {
+    width: 100%;
+}
+.container-list{
+    overflow: hidden;
+}
+.container-list img{
+    transform: rotate(0deg) scale(1);
+    transition: all 400ms ease-out 0s;
+}
+.container-list:hover img{
+    transform: rotate(0deg) scale(1.25);
+    transition: all 400ms ease-out 0s;
+}
+.top-person{
+background-image: url("https://www.cfyc.com.vn/images_server/themes/celebration/img/club/hcm-club-4.jpg");
+}
+.card{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.card .card-img-top{
+    height: 280px;
+}
+.studios{
+    background-image: url("http://www.kickfit.vn/images/bglt.png");
+}
+.studios .adress-text{
+    color: #ffffff;
+}
+.studios .myframegmap{
+
+    border: 3px solid #f6f5f0;
+    border-radius: 8px;
+    height: 200px;
+    width: 50%;
+    box-shadow: 0px 0px 3px 3px #e7e4dc;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 786px) {
+    .carousel-text {
+        margin: 0 15%;
+    }
+
+    .top_boxes {
+        margin-top: 0px;
+    }
+
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+
+    .banner-heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .banner-sub-heading {
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+    .container-list .text p{
+        display: none;
+    }
+    .sport-list .container-list .image{
+        height: 175px;
+        width: 100%;
+    }
 }
 
 
