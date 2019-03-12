@@ -45,8 +45,8 @@ app.get("/cycling", function (req, res) {
 app.get("/walking", function (req, res) {
     res.render("walking");
 });
-app.get("/volleyball", function (req, res) {
-    res.render("volleyball");
+app.get("/Skateboarding", function (req, res) {
+    res.render("Skateboarding");
 });
 app.get("/chess", function (req, res) {
     res.render("chess");
