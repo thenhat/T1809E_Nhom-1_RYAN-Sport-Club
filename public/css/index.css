@@ -17,7 +17,7 @@
 }
 
 .banner-heading {
-    font-family: 'Lobster', cursive;
+    font-family: open-sans, sans-serif;
     font-size: 75px;
     font-weight: 700;
     line-height: 100px;
@@ -26,7 +26,7 @@
 }
 
 .banner-sub-heading {
-    font-family: 'Libre Baskerville', serif;
+    font-family: open-sans, sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 30px;
@@ -51,9 +51,11 @@
     padding-top: 40px;
     border-bottom: 2px solid #000000;
 }
-.title{
-    font-family:cursive;
+
+.title {
+    font-family: cursive;
 }
+
 .carousel {
     position: relative;
 }
@@ -137,51 +139,61 @@
     font-size: 1.5em;
     font-weight: 600;
 }
-.regular-module{
+
+.regular-module {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
 }
+
 .sport-list-cross .container-list {
-    position:relative;
-    display:inline-block;
+    position: relative;
+    display: inline-block;
 }
-.sport-list .container-list .image{
+
+.sport-list .container-list .image {
     height: 380px;
 }
+
 .overlay {
-    position:absolute;
-    transition:all .3s ease;
-    opacity:0;
-    transition:0.7s;
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    transition: 0.7s;
     background: #00b1bab8;
 }
+
 .sport-list-cross .container-list:hover .overlay {
-    opacity:1;
+    opacity: 1;
 }
+
 .container-list .text {
-    color:white;
-    font-family: sans-serif;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    color: white;
+    font-family: open-sans, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 20px;
 }
+
 .overlayCross {
-    height:100%;
-    width:100%;
-    top:0;
-    left:0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
     transform: scale(0.9);
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
 }
-.overlayCross .text a{
+
+.overlayCross .text a {
     color: #ffffff;
 }
-.regular-module .image-module img{
+
+.regular-module .image-module img {
     width: 100%;
     height: 350px;
 }
+
 .sport-list {
     width: 100%;
 }
@@ -189,74 +201,101 @@
 .sport-img {
     padding-left: 0;
     padding-right: 0;
+    line-height: 0;
+}
+
+.sport-img p {
+    line-height: 1.5;
 }
 
 .sport-img img {
     width: 100%;
 }
-.image-module img{
+
+.image-module img {
     max-width: 100%;
 }
-.video-module{
+
+.video-module {
     position: relative;
 }
-.video-module .slide{
+
+.video-module .slide {
     position: absolute;
     top: 0%;
     width: 100%;
 }
-.video-module .text{
+
+.video-module .text {
     font-size: 20px;
     padding: 0 200px;
 }
-.video-module .dg-text{
+
+.video-module .dg-text {
     font-size: 60px;
 }
-.video-module video{
+
+.video-module video {
     width: 100%;
 }
-.video-module .slide-img img{
+
+.video-module .slide-img img {
     border-radius: 200px;
 }
+
 .border-title {
     border-bottom: 2px solid #000000;
     line-height: 50px;
 }
-.container-list{
+
+.container-list {
     overflow: hidden;
 }
-.container-list img{
+
+.container-list img {
     transform: rotate(0deg) scale(1);
     transition: all 400ms ease-out 0s;
 }
-.container-list:hover img{
+
+.container-list:hover img {
     transform: rotate(0deg) scale(1.25);
     transition: all 400ms ease-out 0s;
 }
-.top-person{
-background-image: url("https://www.cfyc.com.vn/images_server/themes/celebration/img/club/desktop/danang/club1/phong-gym-da-nang-1.jpg");
-}
-.card{
-    box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+
+.top-person .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    flex-direction: row;
 }
 
-.card .card-img-top{
-    height: 280px;
+.top-person .card .card-img-top {
+    width: 50%;
+    height: 300px;
 }
-.button-card{
+
+.top-person .card .card-title{
+    border-left: 2px solid #d92329;
+    padding-left: 20px;
+}
+.top-person .button-card {
     margin-left: 0%;
+
 }
-.button-card button{
+
+.top-person .button-card button {
     width: 40%;
     margin-left: 5%;
 }
-.studios{
+
+.studios {
     background-image: url("http://www.kickfit.vn/images/bglt.png");
 }
-.studios .adress-text{
+
+.studios .adress-text {
     color: #ffffff;
 }
-.studios .myframegmap{
+
+.studios .myframegmap {
 
     border: 3px solid #f6f5f0;
     border-radius: 8px;
@@ -294,10 +333,12 @@ background-image: url("https://www.cfyc.com.vn/images_server/themes/celebration/
         line-height: 10px;
         margin-bottom: 40px;
     }
-    .container-list .text p{
+
+    .container-list .text p {
         display: none;
     }
-    .sport-list .container-list .image{
+
+    .sport-list .container-list .image {
         height: 175px;
         width: 100%;
     }

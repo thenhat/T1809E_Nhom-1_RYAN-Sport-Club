@@ -1,0 +1,27 @@
+.img-studios img{
+    width: 100%;
+}
+.title-studios{
+    font-size: 40px;
+    font-weight: bold;
+}
+.title-studios p{
+    border-bottom: 2px solid #d92329;
+}
+.city-list{
+    position: relative;
+    margin-bottom: 30px;
+}
+.city-list .wrap img{
+    border-radius: 130px;
+}
+.city-list .wrap a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+}
+.city-list .wrap .mask p {
+    position: absolute;
+    top: 40%;
+    left: 21%;
+}

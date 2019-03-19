@@ -5,8 +5,8 @@ html, body {
 }
 
 body {
-      font-family: "Helvetica Neue",sans-serif;
-      font-weight: lighter;
+    font-family: open-sans,sans-serif;
+    font-weight: lighter;
 }
 
 .navbar-brand  img{
@@ -20,7 +20,7 @@ body {
     letter-spacing:0.1em;
 }
 .ml-auto .nav-item{
-    width: 7rem;
+    width: 6.5rem;
 }
 .ml-auto .nav-item a{
     text-align: center;

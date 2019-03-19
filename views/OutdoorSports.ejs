@@ -7,25 +7,94 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/head-chung.css" rel="stylesheet">
+
 </head>
 <body>
 <% include common/header %>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<p>a</p>
-<div><a class="" href="cycling">cycling</a></div>
-<div><a class="" href="walking">walking</a></div>
-<div><a class="" href="Skateboarding">Skateboarding</a></div>
+<<div class="main-content">
+    <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"
+                 style="background-image: url('https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/slide1-1.jpg')">
+
+            </div>
+            <div class="carousel-item"
+                 style="background-image: url('https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/slide1-1.jpg')">
+
+            </div>
+            <div class="carousel-item "
+                 style="background-image: url('https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/slide2-1.jpg') ">
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <div class="container">
+            <div class="carousel-text">
+                <h1>GO STRONG</h1>
+                <p>Yet remarkably appearance get him his projection.</p>
+                <p> Diverted endeavor bed peculiar men the not desirous</p>
+                </p><br><br>
+                <div class="carousel-button">
+                    <button type="button" class="btn btn-danger">SIGN UP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center indoor-classes">
+        <h1> Outdoor Sports Classes</h1>
+        <h3>Be part of our awesome community, and transform your body.</h3>
+    </div>
+    <div class="container">
+        <div class="row p-4">
+            <div class="col-lg-4 ">
+                <div class="hovereffect">
+                    <img class="img-responsive style-100"
+                         src="https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/dumbbell-press-bench-man-workout-1109.jpg?itok=LJnrgpPv"
+                         alt="">
+                    <div class="overlay">
+                        <h2>Cycling Classes</h2>
+                        <a class="info" href="cycling">link here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  ">
+                <div class="hovereffect">
+                    <img class="img-responsive style-100"
+                         src="https://akcfitness.com.vn/wp-content/uploads/2016/07/DSC02082-1-768x512.jpg">
+                    <div class="overlay">
+                        <h2>Walking Classes</h2>
+                        <a class="info" href="walking">link here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="hovereffect">
+                    <img class="img-responsive style-100"
+                         src="https://cdn.goodlayers.com/infinite/homepages/fitness/wp-content/uploads/sites/4/2016/05/shutterstock_167027126.jpg"
+                         alt="">
+                    <div class="overlay">
+                        <h2>Skateboarding Classes</h2>
+                        <a class="info" href="Skateboarding">link here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 <% include common/footer %>
 </body>
 </html>
