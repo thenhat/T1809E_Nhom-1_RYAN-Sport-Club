@@ -4,6 +4,7 @@
 /* Png-traning*/
 .hero-image{
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
+
 }
 
 /* Png-traning*/
@@ -47,7 +48,7 @@
 }
 
 .class-image-3{
-    background-image: url("https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
 }
 /* Png-class*/
 .style-class-image{
@@ -60,13 +61,23 @@
     width: 360px;
     padding: 10px;
 }
-.class-text-name{
+[class*="class-image-"] {
+    filter: grayscale(40%);
+    transition: all 0.7s ease;
+}
+[class*="class-image-"]:hover  {
+    filter: brightness(130%);
+}
+
+ .class-text-name{
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
     color: white;
     text-decoration: underline #d92329;
-    margin-top: 85%
+    margin-top: 85%;
+     font-size: 28px ;
 }
+
 
 

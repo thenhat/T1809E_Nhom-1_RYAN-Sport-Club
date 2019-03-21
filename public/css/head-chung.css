@@ -126,10 +126,10 @@ a:hover img.imagedropshadow {
     box-shadow: 1px 1px 5px #999;
 }
 a:hover {
-
     color: red;
 }
-a:visited {
+
+a:visited .blogs{
     color: #1b3453;
 }
 
@@ -148,6 +148,11 @@ a:visited {
 }
 .color-timetable{
   background-color: #eeeeee;
+}
+.color-timetable-class {
+    padding: 3px;
+    margin: 10px;
+    background-color: #eeeeee;
 }
 
 .text-time{
@@ -174,8 +179,8 @@ a:visited {
     margin: 20px;
 }
 .icon{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: relative;
     text-align: left;
 
@@ -183,9 +188,9 @@ a:visited {
 
 .text-main-icon{
     color: #1b3453;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
-   padding: 2px;
+    padding: 2px;
 }
 .png-sp{
     margin: 70px;
@@ -195,10 +200,11 @@ a:visited {
 .money{
     color: #d92329;
 }
-.
-p {
-    font-weight: 300;
-    display: block;
+
+
+p span{
+    font-size: 14px;
+    font-family: Roboto;
 }
 
 

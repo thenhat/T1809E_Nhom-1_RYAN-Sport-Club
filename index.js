@@ -4,6 +4,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
+
 app.listen(3000);
 
 app.get("/", function (req, res) {
@@ -68,4 +69,13 @@ app.get("/DANANG", function (req, res) {
 });
 app.get("/BIENHOA", function (req, res) {
     res.render("BIENHOA");
+});
+app.get("/PILATES", function (req, res) {
+    res.render("Pilates");
+});
+app.get("/KETTLEBELL POWER", function (req, res) {
+    res.render("KETTLEBELL-POWER");
+});
+app.get("/WEIGHT LIFTING", function (req, res) {
+    res.render("WEIGHT-LIFTING");
 });
