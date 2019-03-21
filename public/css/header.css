@@ -56,13 +56,13 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     border: none;
 }
 nav {
-    background-color: #000000;
+    background-color: #1b3453;
     padding-top: 0;
     padding-bottom: 0;
 }
 @media(max-width: 786px) {
     .navbar-nav{
-        background-color:#000;
+        background-color:#1b3453;
         border-top:3px solid #d92329;
         color:#fff;
         z-index:1;
