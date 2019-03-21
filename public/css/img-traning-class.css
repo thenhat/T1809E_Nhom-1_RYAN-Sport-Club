@@ -1,0 +1,72 @@
+
+
+
+/* Png-traning*/
+.hero-image{
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
+}
+
+/* Png-traning*/
+.style-hero-image {
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 280px;
+}
+.hero-text {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.hero-text-name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+
+}
+.hero-text-class{
+    font-style: italic;
+    background-color:  #d92329;
+    padding: 1px;
+    margin-right: 8px;
+}
+
+/* Png-class*/
+
+.class-image-1{
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/890618f0d8f50a42a7283d567dc348e3-655x545.jpg");
+}
+.class-image-2{
+    background-image: url("https://www.strongfitnessmag.com/wp-content/uploads/2013/10/Swing2.jpg");
+}
+
+.class-image-3{
+    background-image: url("https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
+}
+/* Png-class*/
+.style-class-image{
+    background-color: #cccccc;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    padding: 10px;
+}
+.class-text-name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-decoration: underline #d92329;
+    margin-top: 85%
+}
+
+
