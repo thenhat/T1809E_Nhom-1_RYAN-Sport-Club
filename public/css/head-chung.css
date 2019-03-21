@@ -86,10 +86,6 @@
     transition-delay: .2s;
 }
 
-/*.indoor-classes{*/
-/*width: 100%;*/
-/*height: 100%;*/
-/*}*/
 .style-100 {
     width: 100%;
     height: 100%;
@@ -102,7 +98,7 @@
 }
 
 .trainer-text {
-    color: #d92329;
+    color: #1b3453;
     font-size: 20px;
     font-family: 'Signika', sans-serif;
 }
@@ -115,20 +111,6 @@
     line-height: 54px;
 }
 
-h2 {
-    font-family: Montserrat, sans-serif;
-    line-height: 1.0;
-    font-weight: 300;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    color: #000000;
-    size: 10px;
-}
-
-h3 {
-    color: #d92329;
-    font-family: 'Signika', sans-serif;
-}
 
 .border-blogs {
     border-style: ridge;
@@ -144,11 +126,15 @@ a:hover img.imagedropshadow {
     box-shadow: 1px 1px 5px #999;
 }
 a:hover {
-    color: #d92329;
+
+    color: red;
+}
+a:visited {
+    color: #1b3453;
 }
 
 .color-main-text {
-    color: #d92329;
+    color: #1b3453;
     size: 30px;
 }
 .thumnail-number-inside{
@@ -209,5 +195,12 @@ a:hover {
 .money{
     color: #d92329;
 }
+.
+p {
+    font-weight: 300;
+    display: block;
+}
+
+
 
 
