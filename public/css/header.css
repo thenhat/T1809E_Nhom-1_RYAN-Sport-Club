@@ -47,7 +47,7 @@ body {
     padding: 6px 0;
 }
 .navbar-expand-md .navbar-nav .dropdown-menu{
-    border-top:3px solid #fed136;
+    border-top:3px solid #fff;
 }
 .dropdown-item:hover{background-color:#d92329;color:#fff;}
 nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
