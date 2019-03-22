@@ -73,9 +73,15 @@ app.get("/BIENHOA", function (req, res) {
 app.get("/PILATES", function (req, res) {
     res.render("Pilates");
 });
-app.get("/KETTLEBELL POWER", function (req, res) {
-    res.render("KETTLEBELL-POWER");
+app.get("/WEIGHT-LIFTING", function (req, res) {
+    res.render("Weight");
 });
-app.get("/WEIGHT LIFTING", function (req, res) {
-    res.render("WEIGHT-LIFTING");
+app.get("/Kettlebell", function (req, res) {
+    res.render("Kettlebell");
+});
+app.get("/blogs", function (req, res) {
+    res.render("blogs");
+});
+app.get("/trainer", function (req, res) {
+    res.render("trainer");
 });
