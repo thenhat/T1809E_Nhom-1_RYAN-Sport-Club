@@ -33,14 +33,14 @@
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 14px;
     background: rgba(0, 0, 0, 0.6);
     -webkit-transform: translatey(-100px);
     -ms-transform: translatey(-100px);
     transform: translatey(-100px);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    padding: 10px;
+    padding:15px;
 }
 
 .hovereffect a.info {
@@ -54,8 +54,7 @@
     filter: alpha(opacity=0);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    margin: 50px 0 0;
-    padding: 7px 14px;
+    padding: 100%;
 }
 
 .hovereffect a.info:hover {
@@ -126,10 +125,10 @@ a:hover img.imagedropshadow {
     box-shadow: 1px 1px 5px #999;
 }
 a:hover {
-
     color: red;
 }
-a:visited {
+
+a:visited .blogs{
     color: #1b3453;
 }
 
@@ -148,6 +147,11 @@ a:visited {
 }
 .color-timetable{
   background-color: #eeeeee;
+}
+.color-timetable-class {
+    padding: 3px;
+    margin: 10px;
+    background-color: #eeeeee;
 }
 
 .text-time{
@@ -174,8 +178,8 @@ a:visited {
     margin: 20px;
 }
 .icon{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: relative;
     text-align: left;
 
@@ -183,9 +187,9 @@ a:visited {
 
 .text-main-icon{
     color: #1b3453;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
-   padding: 2px;
+    padding: 2px;
 }
 .png-sp{
     margin: 70px;
@@ -195,10 +199,70 @@ a:visited {
 .money{
     color: #d92329;
 }
-.
-p {
-    font-weight: 300;
-    display: block;
+
+
+p span{
+    font-size: 14px;
+    font-family: Roboto;
+}
+.text-main-blog{
+    color: #1b3453;
+    font-size: 30px;
+    font-style: italic;
+    padding: 2px;
+}
+.row-5-7{
+    overflow: hidden;
+}
+.row-7-5{
+    border: 1px ;
+    overflow: hidden;
+}
+
+.form-input .comment{
+    background-color:#eeeeee ;
+    border: #eeeeee;
+    padding: 20px;
+    width: 100%;
+}
+.form-input textarea{
+    height: 200px;
+}
+.form-input textarea:hover {
+    border: 1px solid #eeeeee;
+}
+.form-input textarea:focus{
+    outline: none;
+
+}
+.form-input input:hover {
+    border: 1px solid #eeeeee;
+}
+.form-input input:focus{
+    outline: none;
+    border-color: #eeeeee;
+
+}
+.form-input .input-com{
+    background-color:#eeeeee ;
+    border: #eeeeee;
+    padding: 1px;
+    width: 100%;
+}
+.form-input input{
+    background-color: #eeeeee;
+    border: #eeeeee;
+}
+.form-input .btn-comment{
+    margin-left: 90%;
+}
+
+.border-shadow{
+    padding: 10px;
+    box-shadow: 10px 10px #ededed;
+}
+.trainner-right{
+    text-align: right;
 }
 
 

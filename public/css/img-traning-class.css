@@ -4,6 +4,11 @@
 /* Png-traning*/
 .hero-image{
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
+
+}
+.hero-image-1{
+    background-image: url("https://s3.envato.com/files/257065794/EE4I8752%20copy.jpg");
+
 }
 
 /* Png-traning*/
@@ -14,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width: 280px;
+    width: 300px;
 }
 .hero-text {
     position: absolute;
@@ -33,10 +38,103 @@
 .hero-text-class{
     font-style: italic;
     background-color:  #d92329;
-    padding: 1px;
-    margin-right: 8px;
-}
+    padding: 2px;
+    margin-right: 7px;
 
+}
+/*hover trainer png*/
+.trainner .box{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.trainner .box:before{
+    content: "";
+    height: 350px;
+    width: 300px;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 24px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.trainner .box:hover:before{ opacity: 1; }
+.trainner .box img{
+    height: 350px;
+    width: 300px;
+}
+.trainner .box .box-content{
+    width: 100%;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    opacity: 0;
+    transform: scale(0.5) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.trainner .box:hover .box-content{
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+}
+.trainner .box .title{
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+}
+.trainner .box .post{
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: #d92329;
+    margin-bottom: 15px;
+}
+.trainner .box .icon{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    opacity: 0;
+    transform: scale(0.5) rotateX(360deg);
+    transition: all 0.3s ease 0.3s;
+}
+.trainner .box:hover .icon{
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+}
+.trainner .box .icon li{ display: inline-block; }
+.trainner .box .icon li a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 22px;
+    color: #000;
+    margin-right: 10px;
+    transition: all 0.3s ease 0.3s;
+}
+.trainner .box .icon li a:hover{
+    background: #0afbc7;
+    color: #fff;
+    transition-delay: 0s;
+}
+.trainner @media only screen and (max-width:990px){
+    .box{ margin-bottom: 30px; }
+}
+/*hover trainer png*/
 /* Png-class*/
 
 .class-image-1{
@@ -47,7 +145,7 @@
 }
 
 .class-image-3{
-    background-image: url("https://demokaliumsites-laborator.netdna-ssl.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
 }
 /* Png-class*/
 .style-class-image{
@@ -60,13 +158,23 @@
     width: 360px;
     padding: 10px;
 }
-.class-text-name{
+[class*="class-image-"] {
+    filter: grayscale(40%);
+    transition: all 0.7s ease;
+}
+[class*="class-image-"]:hover  {
+    filter: brightness(130%);
+}
+
+ .class-text-name{
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
     color: white;
     text-decoration: underline #d92329;
-    margin-top: 85%
+    margin-top: 85%;
+     font-size: 28px ;
 }
+
 
 
