@@ -211,37 +211,64 @@
 .sport-img img {
     width: 100%;
 }
-
+.image-module{
+    padding-left: 0;
+    padding-right: 0;
+}
 .image-module img {
     max-width: 100%;
+}
+.content-regular{
+    padding-top: 90px;
+    padding-bottom: 0;
+}
+.booking{
+    background-color: #111727;
+}
+.various{
+    background-color: #e56d3f;
+}
+.scheduling{
+    background-color: #111727;
+}
+.img-studios img{
+    width: 100%;
+}
+.city-list{
+    position: relative;
+    margin-bottom: 30px;
+}
+.city-list .wrap img{
+    border-radius: 130px;
+}
+.city-list .wrap a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+}
+.city-list .wrap .mask p {
+    position: absolute;
+    top: 40%;
+    left: 30%;
 }
 
 .video-module {
     position: relative;
 }
-
-.video-module .slide {
+.video-module .text{
     position: absolute;
-    top: 0%;
-    width: 100%;
+    top: 40%;
+    left: 35%;
 }
-
-.video-module .text {
-    font-size: 20px;
-    padding: 0 200px;
+.video-module .text h1{
+    font-weight: bold;
+    font-size: 45px;
 }
-
-.video-module .dg-text {
-    font-size: 60px;
-}
-
 .video-module video {
     width: 100%;
+    padding-top: 30px;
 }
 
-.video-module .slide-img img {
-    border-radius: 200px;
-}
 
 .border-title {
     border-bottom: 2px solid #000000;
@@ -273,10 +300,6 @@
     height: 300px;
 }
 
-.top-person .card .card-title{
-    border-left: 2px solid #d92329;
-    padding-left: 20px;
-}
 .top-person .button-card {
     margin-left: 0%;
 
@@ -286,13 +309,13 @@
     width: 40%;
     margin-left: 5%;
 }
-
 .studios {
     background-image: url("http://www.kickfit.vn/images/bglt.png");
 }
 
-.studios .adress-text {
+.studios .adress-text,.studios .adress-text a{
     color: #ffffff;
+    text-decoration: none;
 }
 
 .studios .myframegmap {
@@ -302,6 +325,9 @@
     position: relative;
     margin: 0 auto;
 
+}
+.gallery-indoor img, .gallery-outdoor img, .gallery-recreation img{
+    width: 100%;
 }
 
 @media (max-width: 786px) {
@@ -338,7 +364,7 @@
         height: 175px;
         width: 100%;
     }
+    .video-module .text {
+        left: 15%;
+    }
 }
-
-
-

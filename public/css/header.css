@@ -20,7 +20,7 @@ body {
     letter-spacing:0.1em;
 }
 .ml-auto .nav-item{
-    width: 6.6rem;
+    width: 7rem;
 }
 .ml-auto .nav-item a{
     text-align: center;
@@ -69,7 +69,7 @@ nav {
         margin-top:5px;
     }
     .navbar-nav .nav-item .nav-link{
-        padding: 0.7em 1em!important;
+        padding: 0.7em 0.9em;
         font-size: 100%;
         font-weight: 500;
     }

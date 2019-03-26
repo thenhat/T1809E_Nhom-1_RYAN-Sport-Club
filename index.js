@@ -58,18 +58,6 @@ app.get("/chess", function (req, res) {
 app.get("/LOL", function (req, res) {
     res.render("LOL");
 });
-app.get("/TPHCM", function (req, res) {
-    res.render("TPHCM");
-});
-app.get("/HANOI", function (req, res) {
-    res.render("HANOI");
-});
-app.get("/DANANG", function (req, res) {
-    res.render("DANANG");
-});
-app.get("/BIENHOA", function (req, res) {
-    res.render("BIENHOA");
-});
 app.get("/PILATES", function (req, res) {
     res.render("Pilates");
 });
@@ -78,6 +66,9 @@ app.get("/WEIGHT-LIFTING", function (req, res) {
 });
 app.get("/Kettlebell", function (req, res) {
     res.render("Kettlebell");
+});
+app.get("/Gallery", function (req, res) {
+    res.render("Gallery");
 });
 app.get("/blogs", function (req, res) {
     res.render("blogs");
