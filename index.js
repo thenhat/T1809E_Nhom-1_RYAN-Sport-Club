@@ -73,6 +73,4 @@ app.get("/Gallery", function (req, res) {
 app.get("/blogs", function (req, res) {
     res.render("blogs");
 });
-app.get("/trainer", function (req, res) {
-    res.render("trainer");
-});
+
