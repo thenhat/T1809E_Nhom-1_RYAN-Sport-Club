@@ -26,6 +26,8 @@
     position: relative;
     -webkit-transition: all .4s linear;
     transition: all .4s linear;
+    height: 100%;
+    width: 100%;
 }
 
 .hovereffect h2 {
@@ -84,7 +86,9 @@
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
 }
-
+.blog-png{
+    background-image: url('https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/20a4081edd3933962a79f0bbae55f00d-1-468x468.jpeg');
+}
 .style-100 {
     width: 100%;
     height: 100%;

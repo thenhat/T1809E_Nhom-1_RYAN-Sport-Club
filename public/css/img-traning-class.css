@@ -10,7 +10,80 @@
     background-image: url("https://s3.envato.com/files/257065794/EE4I8752%20copy.jpg");
 
 }
+/* PNG Banner */
+.gym-png-1{
+    background-image: url('http://fitnessgym.krucialthemes.com/demo1/wp-content/uploads/revslider/home-slider-blur/revslide-1.jpg');
+}
+.gym-png-2{
+    background-image: url('http://techfitpro.com.vn/wp-content/uploads/2018/05/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg');
+}
 
+.gym-png-3{
+    background-image: url('https://godfatherofbodybuilding.com/wp-content/uploads/2017/07/homepage-background-gym.jpg');
+}
+
+.gym-png-4{
+    background-color: #1b3453 ;
+}
+
+
+.style-gym-png{
+    background-position: center;
+    height: 700px;
+    width: 1365px;
+    background-size: 100% 100%;
+}
+.gym-png-text{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.gym-text-banner{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+}
+.gym-png-text-contain{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.gym-text-contain{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+.divered{
+    height: 3px;
+    background: #db2128;
+    border: none;
+    margin: 25px 0 40px;
+    width: 110px;
+    display: block;
+    clear: both;
+}
+.gym-text-tall{
+    color:white ;
+    font-family: 'Roboto';
+    font-size: 23px;
+}
+
+ul .gym{
+    list-style: none;
+}
+
+.gym-text-tall ul li::before  {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 40px
+}
 /* Png-traning*/
 .style-hero-image {
     background-color: #cccccc;
@@ -27,20 +100,17 @@
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
-
 }
 .hero-text-name{
     font-family: 'Roboto';
     font-weight: 500;
     font-style: italic;
-
 }
 .hero-text-class{
     font-style: italic;
     background-color:  #d92329;
     padding: 2px;
     margin-right: 7px;
-
 }
 /*hover trainer png*/
 .trainner .box{
