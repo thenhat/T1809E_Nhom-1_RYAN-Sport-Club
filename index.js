@@ -73,4 +73,16 @@ app.get("/Gallery", function (req, res) {
 app.get("/blogs", function (req, res) {
     res.render("blogs");
 });
+app.get("/blog-1", function (req, res) {
+    res.render("BLOGS/blog-1");
+});
+app.get("/blog-2", function (req, res) {
+    res.render("BLOGS/blog-2");
+});
+app.get("/blog-3", function (req, res) {
+    res.render("BLOGS/blog-3");
+});
+app.get("/blog-4", function (req, res) {
+    res.render("BLOGS/blog-4");
+});
 
