@@ -26,6 +26,30 @@
     background-color: #1b3453 ;
 }
 
+/* png-boxing*/
+.boxing-png-1{
+    background-image: url('https://cdn.goodlayers.com/infinite/homepages/fitness/wp-content/uploads/sites/4/2016/05/slider-1.jpg');
+}
+.boxing-png-4{
+    background-color: black ;
+}
+.boxing-png-3{
+    background-image: url('http://www.sreepadamayurvedic.com/images/testimonials/5_img.jpg');
+}
+
+/* png-kickfit*/
+.kickfit-png-1{
+    background-image: url('https://kickfitstudio.com/wp-content/uploads/2016/04/kickfit-studio-charleston-mount-pleasant-kickboxing.jpg');
+}
+.kickfit-png-2{
+    background-image: url('https://setupgym.sportrun.com.vn/wp-content/uploads/2018/10/background-mo-phong-gym-daosen-1024x341.jpg');
+}
+.kickfit-png-4{
+    background-color: white ;
+}
+.kickfit-png-3{
+    background-image: url('https://www.akpromotions.org/wp-content/uploads/2016/10/footer-background.jpg');
+}
 
 .style-gym-png{
     background-position: center;
@@ -45,6 +69,12 @@
     font-weight: 900;
     font-style: italic;
     font-size: 50px;
+}
+.kickfit-text-banner{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
 }
 .gym-png-text-contain{
     margin-top: 12%;
@@ -67,23 +97,14 @@
     clear: both;
 }
 .gym-text-tall{
-    color:white ;
+    color: white ;
     font-family: 'Roboto';
     font-size: 23px;
 }
 
-ul .gym{
-    list-style: none;
-}
 
-.gym-text-tall ul li::before  {
-    content: "\2022";
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    font-size: 40px
-}
+
+
 /* Png-traning*/
 .style-hero-image {
     background-color: #cccccc;
