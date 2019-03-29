@@ -1,63 +1,78 @@
-
-
-
 /* Png-traning*/
-.hero-image{
+h1{
+    font-family: -webkit-body;
+}
+.row,.col-lg-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+.hero-image {
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
 
 }
-.hero-image-1{
+
+.hero-image-1 {
     background-image: url("https://s3.envato.com/files/257065794/EE4I8752%20copy.jpg");
 
 }
+
 /* PNG Banner */
-.gym-png-1{
+.gym-png-1 {
     background-image: url('http://fitnessgym.krucialthemes.com/demo1/wp-content/uploads/revslider/home-slider-blur/revslide-1.jpg');
 }
-.gym-png-2{
+
+.gym-png-2 {
     background-image: url('http://techfitpro.com.vn/wp-content/uploads/2018/05/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg');
 }
 
-.gym-png-3{
+.gym-png-3 {
     background-image: url('https://godfatherofbodybuilding.com/wp-content/uploads/2017/07/homepage-background-gym.jpg');
 }
 
-.gym-png-4{
-    background-color: #1b3453 ;
+.gym-png-4 {
+    background-color: #1b3453;
 }
 
+.classes-gym .row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
-.style-gym-png{
+.style-gym-png {
     background-position: center;
     height: 700px;
-    width: 1365px;
+    width: 100%;
     background-size: 100% 100%;
 }
-.gym-png-text{
+
+.gym-png-text {
     position: absolute;
     top: 60%;
     left: 40%;
     transform: translate(-50%, -50%);
     color: white;
 }
-.gym-text-banner{
+
+.gym-text-banner {
     font-family: 'Roboto';
     font-weight: 900;
-    font-style: italic;
     font-size: 50px;
 }
-.gym-png-text-contain{
+
+.gym-png-text-contain {
     margin-top: 12%;
     margin-left: 10%;
 }
-.gym-text-contain{
+
+.gym-text-contain {
     font-family: 'Roboto';
     font-weight: 900;
     font-style: italic;
     font-size: 30px;
     color: white;
 }
-.divered{
+
+.divered {
     height: 3px;
     background: #db2128;
     border: none;
@@ -66,17 +81,24 @@
     display: block;
     clear: both;
 }
-.gym-text-tall{
-    color:white ;
+
+.gym-text-tall {
+    color: white;
     font-family: 'Roboto';
     font-size: 23px;
 }
 
-ul .gym{
+ul .gym {
     list-style: none;
 }
 
-.gym-text-tall ul li::before  {
+.gym-png-text button,.lol-png-text button,.lol-png-3 button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.gym-text-tall ul li::before {
     content: "\2022";
     font-weight: bold;
     display: inline-block;
@@ -84,6 +106,7 @@ ul .gym{
     margin-left: -1em;
     font-size: 40px
 }
+
 /* Png-traning*/
 .style-hero-image {
     background-color: #cccccc;
@@ -94,6 +117,7 @@ ul .gym{
     position: relative;
     width: 300px;
 }
+
 .hero-text {
     position: absolute;
     top: 85%;
@@ -101,41 +125,49 @@ ul .gym{
     transform: translate(-50%, -50%);
     color: white;
 }
-.hero-text-name{
+
+.hero-text-name {
     font-family: 'Roboto';
     font-weight: 500;
     font-style: italic;
 }
-.hero-text-class{
+
+.hero-text-class {
     font-style: italic;
-    background-color:  #d92329;
+    background-color: #d92329;
     padding: 2px;
     margin-right: 7px;
 }
+
 /*hover trainer png*/
-.trainner .box{
+.trainner .box {
     text-align: center;
     overflow: hidden;
     position: relative;
 }
-.trainner .box:before{
+
+.trainner .box:before {
     content: "";
     height: 350px;
-    width: 300px;
-    background: rgba(0,0,0,0.7);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 24px;
     opacity: 0;
     transition: all 0.3s ease 0s;
 }
-.trainner .box:hover:before{ opacity: 1; }
-.trainner .box img{
-    height: 350px;
-    width: 300px;
+
+.trainner .box:hover:before {
+    opacity: 1;
 }
-.trainner .box .box-content{
+
+.trainner .box img {
+    height: 350px;
+    width: 100%;
+}
+
+.trainner .box .box-content {
     width: 100%;
     padding: 0 30px;
     position: absolute;
@@ -145,11 +177,13 @@ ul .gym{
     transform: scale(0.5) rotateX(360deg);
     transition: all 0.3s ease 0s;
 }
-.trainner .box:hover .box-content{
+
+.trainner .box:hover .box-content {
     opacity: 1;
     transform: scale(1) rotateX(0deg);
 }
-.trainner .box .title{
+
+.trainner .box .title {
     font-size: 22px;
     color: white;
     letter-spacing: 1px;
@@ -159,7 +193,8 @@ ul .gym{
     font-weight: 500;
     font-style: italic;
 }
-.trainner .box .post{
+
+.trainner .box .post {
     display: block;
     font-size: 15px;
     font-style: italic;
@@ -167,7 +202,8 @@ ul .gym{
     color: #d92329;
     margin-bottom: 15px;
 }
-.trainner .box .icon{
+
+.trainner .box .icon {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -179,12 +215,17 @@ ul .gym{
     transform: scale(0.5) rotateX(360deg);
     transition: all 0.3s ease 0.3s;
 }
-.trainner .box:hover .icon{
+
+.trainner .box:hover .icon {
     opacity: 1;
     transform: scale(1) rotateX(0deg);
 }
-.trainner .box .icon li{ display: inline-block; }
-.trainner .box .icon li a{
+
+.trainner .box .icon li {
+    display: inline-block;
+}
+
+.trainner .box .icon li a {
     display: block;
     width: 45px;
     height: 45px;
@@ -196,29 +237,38 @@ ul .gym{
     margin-right: 10px;
     transition: all 0.3s ease 0.3s;
 }
-.trainner .box .icon li a:hover{
+
+.trainner .box .icon li a:hover {
     background: #0afbc7;
     color: #fff;
     transition-delay: 0s;
 }
-.trainner @media only screen and (max-width:990px){
-    .box{ margin-bottom: 30px; }
+
+.trainner
+
+@media only screen and (max-width: 990px) {
+    .box {
+        margin-bottom: 30px;
+    }
 }
+
 /*hover trainer png*/
 /* Png-class*/
 
-.class-image-1{
+.class-image-1 {
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/890618f0d8f50a42a7283d567dc348e3-655x545.jpg");
 }
-.class-image-2{
+
+.class-image-2 {
     background-image: url("https://www.strongfitnessmag.com/wp-content/uploads/2013/10/Swing2.jpg");
 }
 
-.class-image-3{
+.class-image-3 {
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
 }
+
 /* Png-class*/
-.style-class-image{
+.style-class-image {
     background-color: #cccccc;
     height: 360px;
     background-position: center;
@@ -228,23 +278,67 @@ ul .gym{
     width: 360px;
     padding: 10px;
 }
+
 [class*="class-image-"] {
     filter: grayscale(40%);
     transition: all 0.7s ease;
 }
-[class*="class-image-"]:hover  {
+
+[class*="class-image-"]:hover {
     filter: brightness(130%);
 }
 
- .class-text-name{
+.class-text-name {
     font-family: 'Roboto';
     font-weight: 700;
     font-style: italic;
     color: white;
     text-decoration: underline #d92329;
     margin-top: 85%;
-     font-size: 28px ;
+    font-size: 28px;
+}
+.LOL-page .lol-png-2 {
+    background-image: url("http://techfitpro.com.vn/wp-content/uploads/2018/05/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg");
 }
 
+.LOL-page .lol-png-1 {
+    background-image: url("../thumbnail/LOL-10.jpg");
+    background-repeat: no-repeat, repeat;
+height: 500px;
+    padding-top: 200px;
+}
 
+.LOL-page .lol-png-text{
+    margin-left: 32%;
+    color: white;
+}
+.LOL-page .lol-rise-1,.LOL-page .lol-rise-2 {
 
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding: 200px 50px;
+}
+.LOL-page .lol-rise-1{
+    background-image: url("../thumbnail/LOL-11.png");
+    background-repeat: no-repeat, repeat;
+
+}
+.LOL-page .lol-rise-2 {
+    background-image: url("../thumbnail/LOL-11.png");
+    background-repeat: no-repeat, repeat;
+}
+.LOL-page .lol-png-3{
+    background-image: url("../thumbnail/LOL-12.jpg");
+    height: 500px;
+    color: white;
+    padding-top: 200px;
+}
+.LOL-page .text-warning{
+    font-size: 50px;
+}
+@media (max-width: 786px){
+    .LOL-page .lol-png-text{
+        margin-left: 0%;
+    }
+}

@@ -181,19 +181,20 @@ a:visited .blogs{
     padding: 3px;
     margin: 20px;
 }
-.icon{
+.icon {
     width: 60px;
     height: 60px;
     position: relative;
     text-align: left;
-
 }
-
+.text-main{
+    background-color: #ebebeb;
+}
 .text-main-icon{
     color: #1b3453;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 30px;
     padding: 2px;
+    font-weight: bold;
 }
 .png-sp{
     margin: 70px;
