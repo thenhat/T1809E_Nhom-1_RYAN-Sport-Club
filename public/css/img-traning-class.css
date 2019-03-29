@@ -1,10 +1,13 @@
 /* Png-traning*/
-h1{
-    font-family: -webkit-body;
+h1,h2{
+font-family: sans-serif;
+    font-weight: bold;
 }
+
 .row,.col-lg-6{
     margin-left: 0;
     margin-right: 0;
+    padding: 0;
 }
 .hero-image {
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
@@ -20,7 +23,18 @@ h1{
 .gym-png-1 {
     background-image: url('http://fitnessgym.krucialthemes.com/demo1/wp-content/uploads/revslider/home-slider-blur/revslide-1.jpg');
 }
-
+.skate-png-1{
+    background-image: url("../thumbnail/skate4.png");
+}
+.walk-png-1{
+    background-image: url("../thumbnail/walk5.jpg");
+}
+.cyc-png-1{
+    background-image: url("../thumbnail/cyc4.jpg");
+}
+.chess-png-1{
+    background-image: url("../thumbnail/chess11.jpg");
+}
 .gym-png-2 {
     background-image: url('http://techfitpro.com.vn/wp-content/uploads/2018/05/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg');
 }
@@ -93,6 +107,7 @@ h1{
     font-style: italic;
     font-size: 30px;
     color: white;
+    padding-right: 10%;
 }
 
 .divered {
@@ -109,6 +124,7 @@ h1{
     font-family: 'Roboto';
     font-size: 23px;
     padding-right: 10%;
+    padding-bottom: 25px;
 }
 
 ul .gym {
