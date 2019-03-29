@@ -3,8 +3,8 @@ h1{
     font-family: -webkit-body;
 }
 .row,.col-lg-6{
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 .hero-image {
     background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/c6cb73b2309494b27091220646ee3446-524x640.jpg");
@@ -33,39 +33,62 @@ h1{
     background-color: #1b3453;
 }
 
-.classes-gym .row {
-    margin-right: 0;
-    margin-left: 0;
+/* png-boxing*/
+.boxing-png-1{
+    background-image: url('https://cdn.goodlayers.com/infinite/homepages/fitness/wp-content/uploads/sites/4/2016/05/slider-1.jpg');
+}
+.boxing-png-4{
+    background-color: black ;
+}
+.boxing-png-3{
+    background-image: url('http://www.sreepadamayurvedic.com/images/testimonials/5_img.jpg');
+}
+
+/* png-kickfit*/
+.kickfit-png-1{
+    background-image: url('https://kickfitstudio.com/wp-content/uploads/2016/04/kickfit-studio-charleston-mount-pleasant-kickboxing.jpg');
+}
+.kickfit-png-2{
+    background-image: url('https://setupgym.sportrun.com.vn/wp-content/uploads/2018/10/background-mo-phong-gym-daosen-1024x341.jpg');
+}
+.kickfit-png-4{
+    background-color: white ;
+}
+.kickfit-png-3{
+    background-image: url('https://www.akpromotions.org/wp-content/uploads/2016/10/footer-background.jpg');
 }
 
 .style-gym-png {
     background-position: center;
     height: 700px;
     width: 100%;
-    background-size: 100% 100%;
+    background-size:cover;
 }
 
 .gym-png-text {
     position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 15%;
     color: white;
 }
 
 .gym-text-banner {
     font-family: 'Roboto';
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
 }
-
-.gym-png-text-contain {
+.kickfit-text-banner{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
+}
+.gym-png-text-contain{
     margin-top: 12%;
     margin-left: 10%;
 }
 
 .gym-text-contain {
-    font-family: 'Roboto';
     font-weight: 900;
     font-style: italic;
     font-size: 30px;
@@ -81,11 +104,11 @@ h1{
     display: block;
     clear: both;
 }
-
-.gym-text-tall {
-    color: white;
+.gym-text-tall{
+    color: white ;
     font-family: 'Roboto';
     font-size: 23px;
+    padding-right: 10%;
 }
 
 ul .gym {
